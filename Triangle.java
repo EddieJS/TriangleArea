@@ -7,4 +7,10 @@ public class Triangle {
 	public double b; 
 	public double c;
 
+	// Fórmula para calcular as áreas dos triângulos X e Y
+	public double area(){
+		double p = (a + b + c) / 2.00;
+		return Math.sqrt (p * (p - a) * (p - b) * (p - c));
+	}
+
 }
